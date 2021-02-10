@@ -32,7 +32,7 @@ main {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.name {
+.person {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,11 +40,14 @@ main {
     background: white;
     color: black;
     font-family: cursive;
+}
+
+#name {
     font-size: 30px;
     line-height: 1.75;
 }
 
-.pronouns {
+#pronouns {
     font-size: 14px;
     line-height: 1;
 }
