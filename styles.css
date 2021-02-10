@@ -1,8 +1,11 @@
+.centered {
+    text-align: center;
+}
 
 main {
+    margin: auto;
     height: 200px;
     width: 300px;
-    margin: auto;
     padding: 3px;
     background-color: #e2e2e2;
 }
@@ -16,7 +19,6 @@ main {
     background: red;
     border-radius: 10px;
 
-    text-align: center;
     color: white;
 }
 
@@ -42,7 +44,7 @@ main {
     font-family: cursive;
 }
 
-#name {
+#name-display {
     font-size: 30px;
     line-height: 1.75;
 }

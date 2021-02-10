@@ -8,15 +8,26 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <main>
+    <p class="centered">
+        <label>
+            Your Name:
+            <input id="name-input">
+        </label>
+        <button id="name-change-button">Change It</button>
+    </p>
+
+    <main class="centered">
         <p class="name-tag">
             <strong class="greeting">Hello</strong>
             <span class="label">my name is</span>
+            
             <em class="person">
-                <span id="name">Pigling Bland</span>
+                <span id="name-display">Pigling Bland</span>
                 <span id="pronouns">(they/them)</span>
             </em>
         </p>
     </main>
+
+    <script type="module" src="app.js"></script>
 </body>
 </html>
