@@ -2,7 +2,6 @@
 
 const nameInput = document.getElementById('name-input');
 const nameDisplay = document.getElementById('name-display');
-console.log(nameDisplay);
 
 // set event listeners
 nameInput.addEventListener('input', () => {
