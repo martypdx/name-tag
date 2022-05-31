@@ -6,7 +6,7 @@ const nameInput = document.getElementById('name-input');
 
 // set event listeners
 nameInput.addEventListener('input', () => {
-    console.log('input happened!');
+
 });
 
 // syntax/spelling
