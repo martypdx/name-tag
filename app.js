@@ -9,6 +9,6 @@ const nameDisplay = document.getElementById('name-display');
 // update DOM to reflect the new state
 nameInput.addEventListener('input', () => {
     const name = nameInput.value;
-    nameDisplay.textContent = name;
+    nameDisplay.textContent = name
 });
 
